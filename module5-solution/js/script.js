@@ -83,7 +83,7 @@ function buildAndShowHomeHTML (categories) {
 //get random category index
 function getRandomCategory (categorieslist) {
   var Indexid = Math.floor(Math.random() * categorieslist.length);
-  return categories[Indexid];
+  return categorieslist[Indexid];
 }
 
 
